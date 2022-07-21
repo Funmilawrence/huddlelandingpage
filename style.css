@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    height: 100vh;
+    font-size:18px;
+    justify-content: center;
+    
+}
+
+.head{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url("bg-hero-desktop.svg");
+    margin: auto;
+    height:40vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+    
+    
+}
+
+.logo{
+    padding: 35px;
+    padding-left: 40px;
+    position: relative;
+    left: 20px;
+    
+}
+
+
+.btn1{
+    position: relative; 
+    left: 73%;
+    top: 10px;
+    background-color: aliceblue;
+    color: black;
+    margin-bottom: 20px;
+    padding:12px 20px;
+    border: 0;
+    border-radius: 15px;
+    
+}
+
+.btn2{
+    background-color: hsl(322, 100%, 66%);
+    color: aliceblue;
+    padding: 12px 38px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.herotext{
+    flex: 30%;
+    text-align: left;
+    padding-right: 30px;
+    
+}
+
+.heroimage{
+    flex: 60%;
+    align-self: center;
+    position: absolute;
+    padding-top: 40px;
+    left: 60%;
+    /* padding-left: 40px;  */
+    /* margin-left: 60px; */
+    
+    /* margin-left: 70px; */
+     
+}
+
+
+.growtogether{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin:auto;
+    border: 1px solid gray;
+    border-radius:15px;
+    padding: 50px;
+    
+}
+
+.growtext{
+    flex: 50%;
+    align-self: center;
+    
+}
+
+.growimage{
+    flex: 50%;
+    align-self: center;
+}
+
+
+.flowingconvo{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin:auto;
+    border: 1px solid gray;
+    border-radius:15px;
+    padding: 50px;
+}
+
+.flowimage{
+    flex:50%;
+    align-self: center;
+}
+
+.flowtext{
+    flex:50%;
+    align-self: center;
+}
+
+
+.yourusers{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin:auto;
+    margin-bottom: 80px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 50px;
+    
+    
+}
+
+.usertext{
+
+    flex:50%;
+    align-self: center;
+}
+
+.userimage{
+    flex:50%;
+    align-self: center;
+}
+
+.theoverlap{
+    text-align: center;
+    width: 50%;
+    margin:auto; 
+    background-color: white;
+    padding: 50px 40px;
+    border: 2px solid gray; 
+    border-radius: 15px;
+    position: absolute;
+    z-index:0;
+    left: 350px;
+    padding-top: 30px;
+    margin-bottom:200px; 
+    
+        
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+}
+
+.btnoverlap{
+    background-color: hsl(322, 100%, 66%);
+    color: aliceblue;
+    padding: 12px 30px 20px;
+    border: 0;
+    border-radius: 15px;
+    
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    background-color:hsl(192, 100%, 9%);
+    color: beige;
+    margin-top: 100px;
+    
+    
+}
+
+.footer1{
+    flex: 25%;
+    text-align: left;
+    padding-right: 45px;
+   
+}
+
+.footer2{
+    flex: 25%;
+    text-align:center; 
+    /* flex-direction: column; */
+    
+}
+
+.footer3{
+    flex: 25%;
+    text-align:left;  
+
+}
+
+.footer4{
+    flex: 25%;
+    text-align:left; 
+
+}
+
+
+
+/* @media screen and (min-width: 300px) {
+    body {
+      width:100%;
+    }
+  } */
